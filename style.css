@@ -1,0 +1,37 @@
+body,
+html,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.navigation {
+  display: flex;
+  background-color: darkblue;
+  flex-grow: 1;
+}
+
+.navigation li {
+  padding: 5px;
+  color: white;
+}
+
+h1 {
+  padding: 16px;
+  text-align: center;
+}
+
+.container > :not(img) {
+  width: 800px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
